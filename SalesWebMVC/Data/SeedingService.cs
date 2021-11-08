@@ -27,12 +27,12 @@ namespace SalesWebMVC.Data
             Department d3 = new Department { Id = 3, Name = "Fashion" };
             Department d4 = new Department { Id = 4, Name = "Books" };
 
-            Seller s1 = new Seller { Id = 1, Name = "Bob Brown", Email = "bob@gmail.com", BirthDate = new DateTime(1998, 4, 21), BaseSalary = 1000.0, Department = d1 };
-            Seller s2 = new Seller { Id = 2, Name = "Maria Green", Email = "maria@gmail.com", BirthDate = new DateTime(1979, 12, 31), BaseSalary = 3500.0, Department = d2 };
-            Seller s3 = new Seller { Id = 3, Name = "Alex Grey", Email = "alex@gmail.com", BirthDate = new DateTime(1988, 1, 15), BaseSalary = 2200.0, Department = d1 };
-            Seller s4 = new Seller { Id = 4, Name = "Martha Red", Email = "martha@gmail.com", BirthDate = new DateTime(1993, 11, 30), BaseSalary = 3000.0, Department = d4 };
-            Seller s5 = new Seller { Id = 5, Name = "Donald Blue", Email = "donald@gmail.com", BirthDate = new DateTime(2000, 1, 9), BaseSalary = 4000.0, Department = d3 };
-            Seller s6 = new Seller { Id = 6, Name = "Alex Pink", Email = "bob@gmail.com", BirthDate = new DateTime(1997, 3, 4), BaseSalary = 3000.0, Department = d2 };
+            Seller s1 = new Seller { Id = 1, Name = "Joao Pedro", Email = "teacherJohn@gmail.com", BirthDate = new DateTime(1998, 4, 21), BaseSalary = 1000.0, Department = d1 };
+            Seller s2 = new Seller { Id = 2, Name = "Nicolly Maria", Email = "Nicollation@gmail.com", BirthDate = new DateTime(1979, 12, 31), BaseSalary = 3500.0, Department = d2 };
+            Seller s3 = new Seller { Id = 3, Name = "Igor Souza", Email = "igorindie@gmail.com", BirthDate = new DateTime(1988, 1, 15), BaseSalary = 2200.0, Department = d1 };
+            Seller s4 = new Seller { Id = 4, Name = "Flavio Carneiro", Email = "flavindopneu@gmail.com", BirthDate = new DateTime(1993, 11, 30), BaseSalary = 3000.0, Department = d4 };
+            Seller s5 = new Seller { Id = 5, Name = "Vitor Gomes", Email = "buddhist@gmail.com", BirthDate = new DateTime(2000, 1, 9), BaseSalary = 4000.0, Department = d3 };
+            Seller s6 = new Seller { Id = 6, Name = "Enzo Magioli", Email = "enzo@gmail.com", BirthDate = new DateTime(1997, 3, 4), BaseSalary = 3000.0, Department = d2 };
 
             SalesRecord r1 = new SalesRecord(1, new DateTime(2018, 09, 25), 11000.0, SaleStatus.Billed, s1);
             SalesRecord r2 = new SalesRecord(2, new DateTime(2018, 09, 4), 7000.0, SaleStatus.Billed, s5);
